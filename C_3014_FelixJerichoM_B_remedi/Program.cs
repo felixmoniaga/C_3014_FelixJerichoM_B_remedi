@@ -55,7 +55,7 @@ abstract class ProdukGalon
         if (stokGudang < 0)
             this.stokGudang = 0;
         else
-            this.stokGudang = stokGudang; ;
+            this.stokGudang = stokGudang; 
     }
 
     public void KurangiStok(int jumlah)
